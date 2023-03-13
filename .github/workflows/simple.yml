@@ -14,6 +14,6 @@ jobs:
           npm -v
       - name: python command
         run: |
-          import plaform
+          import platform
           print(platform.processor())
         shell: python
